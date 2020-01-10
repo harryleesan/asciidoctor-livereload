@@ -1,4 +1,4 @@
-= Asciidoctor-liveserver
+= Asciidoctor-livereload
 
 Watches changes to `.adoc` files, compiles them into `.html` and serves them on `localhost:5500`.
 

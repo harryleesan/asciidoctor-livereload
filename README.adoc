@@ -1,0 +1,12 @@
+= Asciidoctor-liveserver
+
+Watches changes to `*.adoc` files, compiles them into `*.html` and serves them on `localhost:5500`.
+
+== Usage
+
+[source,shell]
+----
+docker pull harryleesan/asciidoctor-livereload
+docker run --rm -t -v $(pwd):/documents/ -p 5500:5500 \
+harryleesan/asciidoctor-livereload /livereload.sh
+----
